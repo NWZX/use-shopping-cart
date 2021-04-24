@@ -56,6 +56,10 @@ declare module 'use-shopping-cart' {
 
   export interface Product {
     /**
+    * A unique product ID
+    */
+    id: string;
+    /**
      * The name of the product
      */
     name: string
@@ -66,7 +70,7 @@ declare module 'use-shopping-cart' {
     /**
      * A unique product SKU
      */
-    sku: string
+    sku?: string
     /**
      * The price of the product
      */
