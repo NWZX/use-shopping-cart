@@ -2,7 +2,6 @@
 node_modules/
 
 # distrobution/built files
-dist/
 build/
 public/
 
@@ -52,3 +51,6 @@ coverage
 
 # Build file for UMD
 examples/umd/src/use-shopping-cart.umd.js
+
+#
+package-lock.json
